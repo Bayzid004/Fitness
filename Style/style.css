@@ -1,0 +1,71 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-font {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: 'slnt' 0;
+}
+
+/* share style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 75%;
+  height: 500px;
+  background-color: black;
+  margin: 0 auto;
+  color: white;
+}
+.normal-text {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Banner and navbar Style */
+.banner-container {
+  margin-top: 48px;
+}
+.navbar h3 {
+  color: rgb(230, 83, 60);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 120%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul {
+  display: flex;
+  gap: 48px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  align-items: center;
+  padding: 0 16px;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+}
+#home {
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+  padding: 8px 24px;
+  font-weight: 600;
+}
+.white{
+    color: aliceblue;
+    font-size: 22px;
+    display: none;
+}
