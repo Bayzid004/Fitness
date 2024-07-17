@@ -9,4 +9,37 @@
     .navbar{
         align-items: center;
     }
+    .banner-content{
+        flex-direction: column;
+        margin: 0;
+    }
+    .banner-content-left {
+        width: 500px;
+        height: 400px; 
+        margin-top: 64px;
+      }
+      .banner-content-left h1 {
+        font-size: 56px;
+        font-weight: 900;
+      }
+      /* .banner-content-right {
+        width: 360px;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 48px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+      } */
+      .free-video {
+        position: absolute;
+        top: 70px;
+        right: -45px;
+      }
+      .tutorial {
+        position: absolute;
+        bottom: 250px;
+        left: 50px;
+      }
 }
