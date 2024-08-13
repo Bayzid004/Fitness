@@ -16,6 +16,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .container {
   max-width: 75%;
   height: 500px;
@@ -23,6 +24,7 @@
   margin: 0 auto;
   color: white;
 }
+
 .normal-text {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.5);
@@ -32,16 +34,19 @@
 .banner-container {
   margin-top: 48px;
 }
+
 .navbar h3 {
   color: rgb(230, 83, 60);
   font-size: 40px;
   font-weight: 800;
   line-height: 120%;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
 }
+
 .navbar ul {
   display: flex;
   gap: 48px;
@@ -51,39 +56,47 @@
   align-items: center;
   padding: 0 16px;
 }
+
 ul li {
   list-style: none;
 }
+
 ul li a {
   text-decoration: none;
   color: aliceblue;
   font-size: 20px;
 }
+
 #home {
   border-radius: 46px;
   background: rgb(230, 83, 60);
   padding: 8px 24px;
   font-weight: 600;
 }
+
 .white {
   color: aliceblue;
   font-size: 22px;
   display: none;
 }
+
 .banner-content {
   display: flex;
   justify-content: space-between;
   margin-top: 48px;
 }
+
 .banner-content-left {
   width: 620px;
-  height: 460px; 
+  height: 460px;
   margin-top: 64px;
 }
+
 .banner-content-left h1 {
   font-size: 82px;
   font-weight: 900;
 }
+
 .banner-content-left p {
   padding-right: 64px;
   color: rgba(255, 255, 255, 0.5);
@@ -91,6 +104,7 @@ ul li a {
   font-weight: 400;
   margin: 28px 0;
 }
+
 .btn-1 {
   border-radius: 42px;
   background: rgb(230, 83, 60);
@@ -101,6 +115,7 @@ ul li a {
   font-size: 18px;
   font-weight: 600;
 }
+
 .btn-2 {
   box-sizing: border-box;
   border-radius: 42px;
@@ -113,6 +128,7 @@ ul li a {
   font-weight: 600;
   margin-left: 14px;
 }
+
 .banner-content-right {
   background-image: url('../images/images 2.png');
   width: 360px;
@@ -124,17 +140,20 @@ ul li a {
   justify-content: space-between;
   position: relative;
 }
+
 .special-font {
   font-family: 'Pinyon Script';
   font-weight: 900;
   color: rgb(230, 83, 60);
 }
+
 .circle {
   width: 48px;
   height: 48px;
   border-radius: 50%;
   background-color: rgb(230, 83, 60);
 }
+
 .free-video {
   width: 195px;
   height: 100px;
@@ -151,6 +170,7 @@ ul li a {
   top: 140px;
   right: -85px;
 }
+
 .tutorial {
   width: 206px;
   height: 96px;
@@ -167,6 +187,47 @@ ul li a {
   bottom: 70px;
   left: -120px;
 }
+
 .title {
   font-size: 48px;
+}
+
+.habit-container-title {
+  max-width: 670px;
+  max-height: 120px;
+  margin: 48px auto;
+  text-align: center;
+}
+
+.habit-container-title h2 {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.habit-container-title p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.habit-container-content {
+  display: flex;
+  gap: 24px;
+}
+
+.habit-content {
+  width: 272px;
+  text-align: center;
+}
+
+.habit-content img {
+  border-radius: 50%;
+}
+
+.banner-content h3 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
 }
