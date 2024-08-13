@@ -59,4 +59,30 @@
         align-items: center;
         /* gap: 24px; */
       }
+      .run-content {
+        height: 650px;
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        /* align-items: center; */
+      }
+      
+      .run-content-image img {
+        border-radius: 16px;
+        margin-top: 24px;
+        width: 360px;
+      }
+      
+      .run-content-title .title{
+        font-size: 36px;
+      }
+      .run-content-title .normal-text{
+        font-size: 14px;
+      }
+      .run-content-title{
+        width: 360px;
+      }
 }
