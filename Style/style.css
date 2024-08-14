@@ -24,12 +24,14 @@
   margin: 0 auto;
   color: white;
 }
-.title{
+
+.title {
   color: rgb(255, 255, 255);
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 24px;
 }
+
 .normal-text {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.5);
@@ -243,4 +245,92 @@ ul li a {
 
 .run-content-title {
   width: 430px;
+}
+
+/* BMI style */
+.bmi {
+  background: rgb(34, 34, 34);
+  border-radius: 16px;
+}
+
+.bmi-title {
+  width: 670px;
+  margin: 48px auto 32px auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.bmi-font-title {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+tr th {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 5px 20px;
+  border: 1px solid white;
+}
+
+.bmi-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bmi-form {
+  width: 600px;
+}
+
+.bmi-form input {
+  width: 280px;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.bmi-form select {
+  width: 280px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#sp-select {
+  width: 560px;
+  margin-bottom: 32px;
+}
+
+/* team style */
+.team-title {
+  text-align: center;
+  width: 670px;
+  margin: 48px auto;
+}
+
+.team-image {
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+}
+
+.image1 {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 12px;
+}
+
+.image1 img {
+  width: 370px;
+  border-radius: 15px;
 }
